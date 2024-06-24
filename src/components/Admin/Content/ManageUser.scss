@@ -1,0 +1,56 @@
+.manage-user-container {
+  .title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 0.3rem;
+  }
+  .mananger-content {
+    .create-user {
+      padding-left: 0.3rem;
+      .btn {
+        margin: 1rem 0;
+      }
+    }
+
+    .table-all-user {
+      .avatarUser {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 0.1rem solid black;
+      }
+    }
+  }
+}
+.modal-add-user {
+  .img-preview {
+    height: 7rem;
+    border: 0.1rem dashed #ccc;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .label-up-load {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    width: fit-content;
+    background-color: #eeeeee;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      background-color: #dcdcdc;
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
