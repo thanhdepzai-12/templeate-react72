@@ -1,0 +1,81 @@
+.login-container {
+
+    .header {
+        height: 3rem;
+        border: 0.1rem solid red;
+        padding: 1.6rem 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        button {
+            margin-left: 0.5rem;
+            padding: 0.3rem 1rem;
+            background-color: transparent;
+            border: 0.09rem solid black;
+            border-radius: 0.5rem;
+        }
+    }
+    .title {
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+    .welcome {
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+        text-align: center;
+        font-weight: 100;
+
+    }
+    .formLogin {
+
+        .inputEmail {
+            margin-bottom: 1.2rem;
+            margin-top: 0.5rem;
+                  &:focus {
+                box-shadow: 0 0 0.1rem green;
+                border: 1px solid green;
+            }
+        }
+        .inputPassword {
+             margin-top: 0.5rem;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            padding-right: 0.5rem;
+            gap: 0.5rem;
+             margin-bottom: 1.2rem;
+               border-radius: .375rem;
+                   border: 1px solid #ced4da;
+                   &:focus-within {
+                      border: 1px solid green;
+                                    box-shadow: 0 0 0.3rem green;
+                   }
+                   input {
+                    outline: none;
+                    border: none;
+                box-shadow: none;       
+
+
+                   }
+        }
+        button {
+            width: 100%;
+            height: 2.2rem;
+            border: none;
+            margin: 1.5rem 0;
+            border-radius: 0.3rem;
+            color: white;
+            background-color: rgb(24, 24, 24);
+        }
+        .text-center {
+            span {
+                cursor: pointer;
+            }
+        }
+    }
+}

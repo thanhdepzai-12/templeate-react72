@@ -5,4 +5,19 @@
         height: 100vh;
       }
     }
+    .admin-content {
+        width: 100%;
+        .adminmain-header {
+            padding: 0.5rem;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: whitesmoke;
+            font-size: 1.5rem;
+        }
+        .adminmain-content {
+        }
+    }
+
 }
