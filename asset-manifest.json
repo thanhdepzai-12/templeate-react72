@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/templeate-react72/static/css/main.de643f3b.css",
+    "main.js": "/templeate-react72/static/js/main.9fbcbf1f.js",
+    "static/js/787.174a0e6e.chunk.js": "/templeate-react72/static/js/787.174a0e6e.chunk.js",
+    "static/media/videoHomePage.mp4": "/templeate-react72/static/media/videoHomePage.97e1291ba6759c1a8c75.mp4",
+    "static/media/starBG.jpg": "/templeate-react72/static/media/starBG.666d247ed773b6e88365.jpg",
+    "index.html": "/templeate-react72/index.html",
+    "main.de643f3b.css.map": "/templeate-react72/static/css/main.de643f3b.css.map",
+    "main.9fbcbf1f.js.map": "/templeate-react72/static/js/main.9fbcbf1f.js.map",
+    "787.174a0e6e.chunk.js.map": "/templeate-react72/static/js/787.174a0e6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de643f3b.css",
+    "static/js/main.9fbcbf1f.js"
+  ]
+}
